@@ -23,3 +23,14 @@ print(cincuenta)
 ##Modifica la edad de la persona a 31.
 ##Agrega una nueva clave "Ciudad" con el valor "Bogotá".
 ##Imprime todas las claves y todos los valores del diccionario.
+
+diccionario = {"nombre":"Carlos",
+               "edad":30,
+               "profesion":"ingeniero",
+               "pais":"Colombia"}
+print(diccionario["nombre"])
+diccionario["edad"]=31
+diccionario["ciudad"]="Bogotá"
+print(f"Keys: {diccionario.keys()}")
+print(f"Values: {diccionario.values()}")
+print(f"Items: {diccionario.items()}")
