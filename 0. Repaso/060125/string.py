@@ -36,4 +36,3 @@ n = 5
 suma = (n*(n+1))/2
 print(f"Suma de N primeros números consecutivos: {suma}")
 separador()
-#Realice el algoritmo que de entrada tenga notas y nombres de 5 alumnos y a la salida te muestre si aprobaron o no.
