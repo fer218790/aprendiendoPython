@@ -6,6 +6,13 @@ def Factorial(n):#parámetro
             count=count*n
             n=n-1
     return count
-Fac = Factorial(3)
-n=int(input("Ingresa el número: "))
-print(f"El factorial de {n} es: {Fac}")
+
+def Combinatoria(a,b):
+    num = Factorial(a)
+    den = Factorial(a-b)*Factorial(b)
+    comb = num/den
+    return comb
+
+x = int(input("Ingresa el número de elementos: "))
+y = int(input("En cuántos grupos desea agrupar?: "))
+print(f"El número de grupos es: {int(Combinatoria(x,y))}")
